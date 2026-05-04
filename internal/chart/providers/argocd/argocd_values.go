@@ -59,7 +59,15 @@ repoServer:
       memory: 800Mi
   env:
     - name: ARGOCD_EXEC_TIMEOUT
-      value: "180s"
+      value: "600s"
+  livenessProbe:
+    httpGet:
+      path: /healthz?full=true
+      port: metrics
+    initialDelaySeconds: 10
+    periodSeconds: 15
+    timeoutSeconds: 10
+    failureThreshold: 30
 
 
 redis:
