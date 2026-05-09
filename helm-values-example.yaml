@@ -27,7 +27,7 @@ deployment:
     repository:
       baseDir: manifests
       appsDir: apps
-      URL: https://github.com/flamingo-stack/openframe-oss-tenant.git
+      URL: https://github.com/gippsweb/openframe-oss-tenant.git
       repoName: openframe-oss-tenant
       branch: main
       profile: dev
