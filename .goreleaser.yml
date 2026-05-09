@@ -23,9 +23,9 @@ builds:
       - arm64
     ldflags:
       - -s -w
-      - -X github.com/flamingo-stack/openframe-cli/cmd.DefaultVersionInfo.Version={{.Version}}
-      - -X github.com/flamingo-stack/openframe-cli/cmd.DefaultVersionInfo.Commit={{.Commit}}
-      - -X github.com/flamingo-stack/openframe-cli/cmd.DefaultVersionInfo.Date={{.Date}}
+      - -X github.com/gippsweb/openframe-cli-dev/cmd.DefaultVersionInfo.Version={{.Version}}
+      - -X github.com/gippsweb/openframe-cli-dev/cmd.DefaultVersionInfo.Commit={{.Commit}}
+      - -X github.com/gippsweb/openframe-cli-dev/cmd.DefaultVersionInfo.Date={{.Date}}
 
 archives:
   - id: openframe-cli-archive
