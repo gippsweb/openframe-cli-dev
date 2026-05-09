@@ -4,10 +4,10 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/prerequisites/docker"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/prerequisites/helm"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/prerequisites/k3d"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/prerequisites/kubectl"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/prerequisites/docker"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/prerequisites/helm"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/prerequisites/k3d"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/prerequisites/kubectl"
 )
 
 func TestNewPrerequisiteChecker(t *testing.T) {

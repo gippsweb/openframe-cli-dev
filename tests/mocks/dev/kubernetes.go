@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/services/intercept"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/services/intercept"
 )
 
 // MockKubernetesClient provides a mock implementation for testing UI components

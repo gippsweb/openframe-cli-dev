@@ -6,8 +6,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/services/intercept"
-	sharedUI "github.com/flamingo-stack/openframe-cli/internal/shared/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/services/intercept"
+	sharedUI "github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
 	"github.com/pterm/pterm"
 )
 

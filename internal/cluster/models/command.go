@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/spf13/cobra"
 )
 

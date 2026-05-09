@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/services/intercept"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/services/intercept"
 )
 
 // GetServices returns all services in a namespace

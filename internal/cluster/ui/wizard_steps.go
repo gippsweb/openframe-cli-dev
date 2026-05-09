@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	sharedUI "github.com/flamingo-stack/openframe-cli/internal/shared/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	sharedUI "github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
 	"github.com/manifoldco/promptui"
 	"github.com/pterm/pterm"
 )

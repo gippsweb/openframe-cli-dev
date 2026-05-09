@@ -3,9 +3,9 @@ package cluster
 import (
 	"fmt"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/ui"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/utils"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/utils"
 	"github.com/spf13/cobra"
 )
 

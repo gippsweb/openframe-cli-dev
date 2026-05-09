@@ -3,7 +3,7 @@ package dev
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

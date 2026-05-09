@@ -1,10 +1,10 @@
 package testutil
 
 import (
-	"github.com/flamingo-stack/openframe-cli/internal/cluster"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/providers/k3d"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/providers/k3d"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
 )
 
 // InitializeTestMode sets up the test environment for UI components

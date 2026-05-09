@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/shared/flags"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/flags"
 	"github.com/spf13/cobra"
 )
 

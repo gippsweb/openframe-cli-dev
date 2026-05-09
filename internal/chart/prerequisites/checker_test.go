@@ -3,10 +3,10 @@ package prerequisites
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/certificates"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/git"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/helm"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/memory"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/certificates"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/git"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/helm"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/memory"
 )
 
 func TestNewPrerequisiteChecker(t *testing.T) {

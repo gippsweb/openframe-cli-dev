@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	chartUI "github.com/flamingo-stack/openframe-cli/internal/chart/ui"
+	chartUI "github.com/gippsweb/openframe-cli-dev/internal/chart/ui"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

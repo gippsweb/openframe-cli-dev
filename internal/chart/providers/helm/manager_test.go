@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/config"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/errors"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/config"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/errors"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"k8s.io/client-go/rest"

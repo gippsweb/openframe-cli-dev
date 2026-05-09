@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/shared/config"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/ui"
-	"github.com/flamingo-stack/openframe-cli/tests/testutil"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/config"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
+	"github.com/gippsweb/openframe-cli-dev/tests/testutil"
 )
 
 func init() {

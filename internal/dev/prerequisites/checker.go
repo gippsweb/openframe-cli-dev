@@ -3,9 +3,9 @@ package prerequisites
 import (
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/prerequisites/jq"
-	"github.com/flamingo-stack/openframe-cli/internal/dev/prerequisites/scaffold"
-	"github.com/flamingo-stack/openframe-cli/internal/dev/prerequisites/telepresence"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/prerequisites/jq"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/prerequisites/scaffold"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/prerequisites/telepresence"
 )
 
 type PrerequisiteChecker struct {

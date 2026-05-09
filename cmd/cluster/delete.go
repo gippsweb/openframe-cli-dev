@@ -3,10 +3,10 @@ package cluster
 import (
 	"fmt"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/ui"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/utils"
-	sharedErrors "github.com/flamingo-stack/openframe-cli/internal/shared/errors"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/utils"
+	sharedErrors "github.com/gippsweb/openframe-cli-dev/internal/shared/errors"
 	"github.com/spf13/cobra"
 )
 

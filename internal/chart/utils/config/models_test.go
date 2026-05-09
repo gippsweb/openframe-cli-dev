@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/models"
 	"github.com/stretchr/testify/assert"
 )
 

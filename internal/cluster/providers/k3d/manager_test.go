@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	execPkg "github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	execPkg "github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

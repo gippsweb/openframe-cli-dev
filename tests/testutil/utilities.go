@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
 )
 
 // TestClusterConfig creates a test cluster configuration

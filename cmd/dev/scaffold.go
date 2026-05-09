@@ -3,9 +3,9 @@ package dev
 import (
 	"context"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/models"
-	scaffoldService "github.com/flamingo-stack/openframe-cli/internal/dev/services/scaffold"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/models"
+	scaffoldService "github.com/gippsweb/openframe-cli-dev/internal/dev/services/scaffold"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/spf13/cobra"
 )
 

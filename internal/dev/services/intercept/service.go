@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/models"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/pterm/pterm"
 )
 

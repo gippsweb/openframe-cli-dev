@@ -6,12 +6,12 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/certificates"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/git"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/helm"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/prerequisites/memory"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/errors"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/certificates"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/git"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/helm"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/prerequisites/memory"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/errors"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
 	"github.com/pterm/pterm"
 )
 

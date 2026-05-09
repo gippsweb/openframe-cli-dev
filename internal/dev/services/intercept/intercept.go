@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/models"
 )
 
 // createIntercept creates the actual telepresence intercept

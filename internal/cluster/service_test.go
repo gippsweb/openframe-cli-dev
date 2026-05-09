@@ -3,9 +3,9 @@ package cluster
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/providers/k3d"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/providers/k3d"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 )
 
 // createTestExecutor creates a mock executor for testing

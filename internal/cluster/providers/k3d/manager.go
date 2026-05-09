@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	sharedconfig "github.com/flamingo-stack/openframe-cli/internal/shared/config"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	sharedconfig "github.com/gippsweb/openframe-cli-dev/internal/shared/config"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"

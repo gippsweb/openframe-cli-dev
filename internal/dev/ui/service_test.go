@@ -3,9 +3,9 @@ package ui
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/dev/services/intercept"
-	devMocks "github.com/flamingo-stack/openframe-cli/tests/mocks/dev"
-	"github.com/flamingo-stack/openframe-cli/tests/testutil"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/services/intercept"
+	devMocks "github.com/gippsweb/openframe-cli-dev/tests/mocks/dev"
+	"github.com/gippsweb/openframe-cli-dev/tests/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

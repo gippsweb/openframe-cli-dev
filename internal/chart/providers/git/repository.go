@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/models"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 )
 
 // Repository handles git operations for chart repositories

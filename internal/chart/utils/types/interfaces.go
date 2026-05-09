@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/models"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/providers/git"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/config"
-	clusterDomain "github.com/flamingo-stack/openframe-cli/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/providers/git"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/config"
+	clusterDomain "github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
 	"k8s.io/client-go/rest"
 )
 

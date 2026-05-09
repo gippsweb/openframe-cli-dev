@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/models"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/providers/argocd"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/providers/helm"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/config"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/errors"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/providers/argocd"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/providers/helm"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/config"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/errors"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/pterm/pterm"
 )
 

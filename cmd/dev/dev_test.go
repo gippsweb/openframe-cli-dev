@@ -3,7 +3,7 @@ package dev
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/tests/testutil"
+	"github.com/gippsweb/openframe-cli-dev/tests/testutil"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

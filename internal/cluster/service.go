@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/prerequisites"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/providers/k3d"
-	uiCluster "github.com/flamingo-stack/openframe-cli/internal/cluster/ui"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/prerequisites"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/providers/k3d"
+	uiCluster "github.com/gippsweb/openframe-cli-dev/internal/cluster/ui"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
 	"github.com/pterm/pterm"
 	"k8s.io/client-go/rest"
 )

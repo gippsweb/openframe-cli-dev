@@ -1,4 +1,4 @@
-module github.com/flamingo-stack/openframe-cli
+module github.com/gippsweb/openframe-cli-dev
 
 go 1.24.6
 

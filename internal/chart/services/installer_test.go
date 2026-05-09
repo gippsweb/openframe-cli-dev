@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/models"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/config"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/errors"
-	sharedErrors "github.com/flamingo-stack/openframe-cli/internal/shared/errors"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/config"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/errors"
+	sharedErrors "github.com/gippsweb/openframe-cli-dev/internal/shared/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

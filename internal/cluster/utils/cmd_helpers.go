@@ -4,11 +4,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/errors"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
-	"github.com/flamingo-stack/openframe-cli/tests/testutil"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/errors"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/tests/testutil"
 	"github.com/spf13/cobra"
 )
 

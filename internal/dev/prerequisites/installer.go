@@ -5,11 +5,11 @@ import (
 	"os"
 	"strings"
 
-	clusterUtils "github.com/flamingo-stack/openframe-cli/internal/cluster/utils"
-	"github.com/flamingo-stack/openframe-cli/internal/dev/prerequisites/jq"
-	"github.com/flamingo-stack/openframe-cli/internal/dev/prerequisites/scaffold"
-	"github.com/flamingo-stack/openframe-cli/internal/dev/prerequisites/telepresence"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/ui"
+	clusterUtils "github.com/gippsweb/openframe-cli-dev/internal/cluster/utils"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/prerequisites/jq"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/prerequisites/scaffold"
+	"github.com/gippsweb/openframe-cli-dev/internal/dev/prerequisites/telepresence"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/ui"
 	"github.com/pterm/pterm"
 )
 

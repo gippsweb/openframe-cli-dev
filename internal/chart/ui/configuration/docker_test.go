@@ -3,8 +3,8 @@ package configuration
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/ui/templates"
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/types"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/ui/templates"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/types"
 	"github.com/stretchr/testify/assert"
 )
 

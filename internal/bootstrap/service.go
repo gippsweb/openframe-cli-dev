@@ -6,11 +6,11 @@ import (
 	"runtime"
 	"strings"
 
-	chartServices "github.com/flamingo-stack/openframe-cli/internal/chart/services"
-	utilTypes "github.com/flamingo-stack/openframe-cli/internal/chart/utils/types"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster"
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
-	sharedErrors "github.com/flamingo-stack/openframe-cli/internal/shared/errors"
+	chartServices "github.com/gippsweb/openframe-cli-dev/internal/chart/services"
+	utilTypes "github.com/gippsweb/openframe-cli-dev/internal/chart/utils/types"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
+	sharedErrors "github.com/gippsweb/openframe-cli-dev/internal/shared/errors"
 	"github.com/spf13/cobra"
 	"k8s.io/client-go/rest"
 )

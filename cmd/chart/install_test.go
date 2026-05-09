@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
-	"github.com/flamingo-stack/openframe-cli/tests/testutil"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/tests/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -3,8 +3,8 @@ package cluster
 import (
 	"testing"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/utils"
-	"github.com/flamingo-stack/openframe-cli/tests/testutil"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/utils"
+	"github.com/gippsweb/openframe-cli-dev/tests/testutil"
 )
 
 func init() {

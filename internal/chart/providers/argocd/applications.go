@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/chart/utils/config"
-	sharedconfig "github.com/flamingo-stack/openframe-cli/internal/shared/config"
-	"github.com/flamingo-stack/openframe-cli/internal/shared/executor"
+	"github.com/gippsweb/openframe-cli-dev/internal/chart/utils/config"
+	sharedconfig "github.com/gippsweb/openframe-cli-dev/internal/shared/config"
+	"github.com/gippsweb/openframe-cli-dev/internal/shared/executor"
 	"github.com/pterm/pterm"
 	argocdclientset "github.com/argoproj/argo-cd/v2/pkg/client/clientset/versioned"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

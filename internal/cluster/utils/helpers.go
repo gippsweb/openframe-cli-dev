@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/flamingo-stack/openframe-cli/internal/cluster/models"
+	"github.com/gippsweb/openframe-cli-dev/internal/cluster/models"
 )
 
 // ClusterSelectionResult contains the result of cluster selection (deprecated - use UI types)
