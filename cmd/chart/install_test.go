@@ -93,7 +93,7 @@ func TestInstallCommandFlagHandling(t *testing.T) {
 			expectedArgs: InstallFlags{
 				Force:        false,
 				DryRun:       false,
-				GitHubRepo:   "https://github.com/flamingo-stack/openframe-oss-tenant",
+				GitHubRepo:   "https://github.com/gippsweb/openframe-oss-tenant",
 				GitHubBranch: "main",
 				CertDir:      "",
 			},
@@ -108,7 +108,7 @@ func TestInstallCommandFlagHandling(t *testing.T) {
 			expectedArgs: InstallFlags{
 				Force:        true,
 				DryRun:       true,
-				GitHubRepo:   "https://github.com/flamingo-stack/openframe-oss-tenant",
+				GitHubRepo:   "https://github.com/gippsweb/openframe-oss-tenant",
 				GitHubBranch: "develop",
 				CertDir:      "",
 			},

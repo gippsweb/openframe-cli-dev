@@ -92,9 +92,9 @@ func GetRepositoryURL(mode DeploymentMode) string {
 	case DeploymentModeSaaS:
 		return "https://github.com/flamingo-stack/openframe-saas-tenant"
 	case DeploymentModeOSS:
-		return "https://github.com/flamingo-stack/openframe-oss-tenant"
+		return "https://github.com/gippsweb/openframe-oss-tenant"
 	default:
 		// Default to OSS repository
-		return "https://github.com/flamingo-stack/openframe-oss-tenant"
+		return "https://github.com/gippsweb/openframe-oss-tenant"
 	}
 }

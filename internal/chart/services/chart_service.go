@@ -689,7 +689,7 @@ func InstallChartsWithDefaultsContext(ctx context.Context, args []string, force,
 		Force:        force,
 		DryRun:       dryRun,
 		Verbose:      verbose,
-		GitHubRepo:   "https://github.com/flamingo-stack/openframe-oss-tenant", // Default repository
+		GitHubRepo:   "https://github.com/gippsweb/openframe-oss-tenant", // Default repository
 		GitHubBranch: "main",                                                   // Default branch
 		CertDir:      "",                                                       // Auto-detected
 	})

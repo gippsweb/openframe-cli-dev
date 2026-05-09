@@ -10,7 +10,7 @@ func TestNewAppOfAppsConfig(t *testing.T) {
 	config := NewAppOfAppsConfig()
 
 	assert.NotNil(t, config)
-	assert.Equal(t, "https://github.com/flamingo-stack/openframe-oss-tenant", config.GitHubRepo)
+	assert.Equal(t, "https://github.com/gippsweb/openframe-oss-tenant", config.GitHubRepo)
 	assert.Equal(t, "main", config.GitHubBranch)
 	assert.Equal(t, "manifests/app-of-apps", config.ChartPath)
 	assert.Equal(t, "argocd", config.Namespace)

@@ -141,7 +141,7 @@ func (s *Service) installChartWithMode(clusterName, deploymentMode string, nonIn
 		Force:          false,
 		DryRun:         false,
 		Verbose:        verbose,
-		GitHubRepo:     "https://github.com/flamingo-stack/openframe-oss-tenant", // Default repository
+		GitHubRepo:     "https://github.com/gippsweb/openframe-oss-tenant", // Default repository
 		GitHubBranch:   "main",                                                   // Default branch
 		CertDir:        "",                                                       // Auto-detected
 		DeploymentMode: deploymentMode,
